@@ -16,7 +16,7 @@
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
-        <!-- For Java 9+ you might also want to set release -->
+        <!-- For Java 9+(jdk of maven) you might also want to set release -->
         <maven.compiler.release>17</maven.compiler.release>
     </properties>
     
@@ -35,8 +35,21 @@
         <configuration>
             <source>17</source>
             <target>17</target>
-            <!-- For Java 9+ you might also want to set release -->
+            <!-- For Java 9+(jdk of maven) you might also want to set release -->
             <release>17</release>
         </configuration>
     </plugin>
 ```
+
+# Compile parameters of javac
+## javac of jdk8
+- `-source <release>          Provide source compatibility with specified release`
+- `-target <release>          Generate class files for specific VM version`
+## javac of jdk17
+- `--source <release>, -source <release> Provide source compatibility with the specified Java SE release. Supported releases: 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17`
+- `--target <release>, -target <release> Generate class files suitable for the specified Java SE release. Supported releases: 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17`
+- `--release <release> Compile for the specified Java SE release. Supported releases: 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17`
+## javac of jdk22
+- `--source <release>, -source <release> Provide source compatibility with the specified Java SE release. Supported releases: 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22`
+- `--target <release>, -target <release> Generate class files suitable for the specified Java SE release. Supported releases: 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22`
+- `--release <release> Compile for the specified Java SE release. Supported releases: 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22`
