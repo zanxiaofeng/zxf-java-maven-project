@@ -1,5 +1,5 @@
 .idea/
 zxf-java-maven-multiple/.idea/
 zxf-java-maven-minimal/.idea/
-zxf-java-maven-multiple/target/
+zxf-java-maven-multiple/*/target/
 zxf-java-maven-minimal/target/
