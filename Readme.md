@@ -43,8 +43,8 @@
 
 # Compile parameters of javac
 ## javac of jdk8
-- `-source <release>          Provide source compatibility with specified release`
-- `-target <release>          Generate class files for specific VM version`
+- `-source <release> Provide source compatibility with specified release`
+- `-target <release> Generate class files for specific VM version`
 ## javac of jdk17
 - `--source <release>, -source <release> Provide source compatibility with the specified Java SE release. Supported releases: 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17`
 - `--target <release>, -target <release> Generate class files suitable for the specified Java SE release. Supported releases: 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17`
