@@ -1,6 +1,0 @@
-/home/davis/Work/zxf-springboot-camunda/zxf-springboot-camunda-arch-rest/src/main/java/zxf/camunda/arch/rest/Application.java
-/home/davis/Work/zxf-springboot-camunda/zxf-springboot-camunda-arch-rest/src/main/java/zxf/camunda/arch/rest/controller/FormController.java
-/home/davis/Work/zxf-springboot-camunda/zxf-springboot-camunda-arch-rest/src/main/java/zxf/camunda/arch/rest/controller/TaskController.java
-/home/davis/Work/zxf-springboot-camunda/zxf-springboot-camunda-arch-rest/src/main/java/zxf/camunda/arch/rest/request/FormRequest.java
-/home/davis/Work/zxf-springboot-camunda/zxf-springboot-camunda-arch-rest/src/main/java/zxf/camunda/arch/rest/request/TaskRequest.java
-/home/davis/Work/zxf-springboot-camunda/zxf-springboot-camunda-arch-rest/src/main/java/zxf/camunda/arch/rest/service/TaskService.java
