@@ -9,6 +9,14 @@
 # Effective POM = Super POM + Parent POMs (if any) + Your project POM
 - mvn help:effective-pom -Doutput=effective-pom.xml
 
+# Plugin maven-compiler-plugin
+- mvn compiler:help -Ddetail=true
+- mvn compiler:help -Ddetail=true -Dgoal=compiler:compile
+- https://maven.apache.org/plugins/maven-compiler-plugin/
+- https://github.com/apache/maven-compiler-plugin/
+
+
+
 
 # How to set jdk version for a maven project
 ## Option 1 properties + maven-compiler-plugin
