@@ -1,5 +1,7 @@
 .idea/
 zxf-java-maven-multiple/.idea/
 zxf-java-maven-minimal/.idea/
+zxf-java-maven-springboot/.idea/
 zxf-java-maven-multiple/*/target/
 zxf-java-maven-minimal/target/
+zxf-java-maven-springboot/target/
