@@ -30,7 +30,7 @@
 - org.codehaus.plexus.compiler.CompilerResult;
 - org.codehaus.plexus.compiler.manager.CompilerManager;
 - org.codehaus.plexus.compiler.manager.NoSuchCompilerException;
-## maven-compiler-plugin-3.13.0
+## maven-compiler-plugin-4.0.0-beta-2
 - https://github.com/apache/maven-compiler-plugin/blob/maven-compiler-plugin-4.0.0-beta-2
 - public void org.apache.maven.plugin.compiler.AbstractCompilerMojo::execute() throws MojoException
 - org.apache.maven.plugin.compiler.CompilerMojo extends AbstractCompilerMojo
