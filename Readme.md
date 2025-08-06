@@ -71,6 +71,37 @@
     </plugin>
 ```
 
+# In-Process Compile && Out-Process Compile
+## In-Process Compile
+```
+    <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.13.0</version>
+        <configuration>
+            <!-- The default value is false -->
+            <fork>false</fork>
+        </configuration>
+    </plugin>
+```
+## Out-Process Compile
+```
+    <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.13.0</version>
+        <configuration>
+             <!-- The default value is false -->
+            <fork>true</fork>
+            <executable>/path/to/javac</executable>
+            <compilerArgs>
+                <arg>-Xmaxerrs</arg>
+                <arg>1000</arg>
+            </compilerArgs>
+        </configuration>
+    </plugin>
+```
+
 # Compile parameters of javac
 ## javac of jdk8
 - `-source <release> Provide source compatibility with specified release`
