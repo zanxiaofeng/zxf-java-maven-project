@@ -102,6 +102,10 @@
     </plugin>
 ```
 
+# Maven 继承体系
+- 在Maven继承体系中，父Pom可以利用<dependencyManagement>以及<pluginManagement>来定制子Pom的依赖以及插件的版本和配置
+
+
 # Compile parameters of javac
 ## javac of jdk8
 - `-source <release> Provide source compatibility with specified release`
