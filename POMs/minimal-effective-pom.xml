@@ -16,6 +16,11 @@
   <groupId>zxf</groupId>  <!-- zxf:zxf-java-maven-minimal:1.0.0-SNAPSHOT, line 7 -->
   <artifactId>zxf-java-maven-minimal</artifactId>  <!-- zxf:zxf-java-maven-minimal:1.0.0-SNAPSHOT, line 8 -->
   <version>1.0.0-SNAPSHOT</version>  <!-- zxf:zxf-java-maven-minimal:1.0.0-SNAPSHOT, line 9 -->
+  <properties>
+    <maven.compiler.release>21</maven.compiler.release>  <!-- zxf:zxf-java-maven-minimal:1.0.0-SNAPSHOT, line 14 -->
+    <maven.compiler.source>21</maven.compiler.source>  <!-- zxf:zxf-java-maven-minimal:1.0.0-SNAPSHOT, line 12 -->
+    <maven.compiler.target>21</maven.compiler.target>  <!-- zxf:zxf-java-maven-minimal:1.0.0-SNAPSHOT, line 13 -->
+  </properties>
   <repositories>
     <repository>
       <snapshots>
@@ -79,6 +84,26 @@
     </pluginManagement>
     <plugins>
       <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>  <!-- zxf:zxf-java-maven-minimal:1.0.0-SNAPSHOT, line 21 -->
+        <version>3.13.0</version>  <!-- zxf:zxf-java-maven-minimal:1.0.0-SNAPSHOT, line 22 -->
+        <executions>
+          <execution>
+            <id>default-compile</id>  <!-- org.apache.maven:maven-core:3.8.7:default-lifecycle-bindings -->
+            <phase>compile</phase>  <!-- org.apache.maven:maven-core:3.8.7:default-lifecycle-bindings -->
+            <goals>
+              <goal>compile</goal>  <!-- org.apache.maven:maven-core:3.8.7:default-lifecycle-bindings -->
+            </goals>
+          </execution>
+          <execution>
+            <id>default-testCompile</id>  <!-- org.apache.maven:maven-core:3.8.7:default-lifecycle-bindings -->
+            <phase>test-compile</phase>  <!-- org.apache.maven:maven-core:3.8.7:default-lifecycle-bindings -->
+            <goals>
+              <goal>testCompile</goal>  <!-- org.apache.maven:maven-core:3.8.7:default-lifecycle-bindings -->
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
         <artifactId>maven-clean-plugin</artifactId>  <!-- org.apache.maven:maven-core:3.8.7:default-lifecycle-bindings -->
         <version>2.5</version>  <!-- org.apache.maven:maven-core:3.8.7:default-lifecycle-bindings -->
         <executions>
@@ -120,26 +145,6 @@
             <phase>package</phase>  <!-- org.apache.maven:maven-core:3.8.7:default-lifecycle-bindings -->
             <goals>
               <goal>jar</goal>  <!-- org.apache.maven:maven-core:3.8.7:default-lifecycle-bindings -->
-            </goals>
-          </execution>
-        </executions>
-      </plugin>
-      <plugin>
-        <artifactId>maven-compiler-plugin</artifactId>  <!-- org.apache.maven:maven-core:3.8.7:default-lifecycle-bindings -->
-        <version>3.1</version>  <!-- org.apache.maven:maven-core:3.8.7:default-lifecycle-bindings -->
-        <executions>
-          <execution>
-            <id>default-compile</id>  <!-- org.apache.maven:maven-core:3.8.7:default-lifecycle-bindings -->
-            <phase>compile</phase>  <!-- org.apache.maven:maven-core:3.8.7:default-lifecycle-bindings -->
-            <goals>
-              <goal>compile</goal>  <!-- org.apache.maven:maven-core:3.8.7:default-lifecycle-bindings -->
-            </goals>
-          </execution>
-          <execution>
-            <id>default-testCompile</id>  <!-- org.apache.maven:maven-core:3.8.7:default-lifecycle-bindings -->
-            <phase>test-compile</phase>  <!-- org.apache.maven:maven-core:3.8.7:default-lifecycle-bindings -->
-            <goals>
-              <goal>testCompile</goal>  <!-- org.apache.maven:maven-core:3.8.7:default-lifecycle-bindings -->
             </goals>
           </execution>
         </executions>

@@ -23,16 +23,16 @@
       <module>zxf-java-maven-multiple-b</module>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 13 -->
     </modules>
     <properties>
-      <maven.compiler.release>17</maven.compiler.release>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 20 -->
-      <maven.compiler.source>17</maven.compiler.source>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 17 -->
-      <maven.compiler.target>17</maven.compiler.target>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 18 -->
+      <maven.compiler.release>21</maven.compiler.release>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 20 -->
+      <maven.compiler.source>21</maven.compiler.source>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 17 -->
+      <maven.compiler.target>21</maven.compiler.target>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 18 -->
     </properties>
     <dependencyManagement>
       <dependencies>
         <dependency>
-          <groupId>mysql</groupId>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 36 -->
-          <artifactId>mysql-connector-java</artifactId>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 37 -->
-          <version>8.0.33</version>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 38 -->
+          <groupId>com.mysql</groupId>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 36 -->
+          <artifactId>mysql-connector-j</artifactId>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 37 -->
+          <version>8.3.0</version>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 38 -->
         </dependency>
         <dependency>
           <groupId>org.flywaydb</groupId>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 41 -->
@@ -62,8 +62,8 @@
         </dependency>
         <dependency>
           <groupId>org.mockito</groupId>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 67 -->
-          <artifactId>mockito-inline</artifactId>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 68 -->
-          <version>4.5.1</version>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 69 -->
+          <artifactId>mockito-core</artifactId>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 68 -->
+          <version>5.11.0</version>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 69 -->
           <scope>test</scope>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 70 -->
         </dependency>
       </dependencies>
@@ -143,11 +143,11 @@
           <plugin>
             <groupId>org.springframework.boot</groupId>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 85 -->
             <artifactId>spring-boot-maven-plugin</artifactId>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 86 -->
-            <version>2.7.18</version>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 87 -->
+            <version>3.3.3</version>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 87 -->
           </plugin>
           <plugin>
             <artifactId>maven-surefire-plugin</artifactId>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 91 -->
-            <version>2.22.2</version>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 92 -->
+            <version>3.2.5</version>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 92 -->
           </plugin>
         </plugins>
       </pluginManagement>
@@ -265,16 +265,16 @@
     <artifactId>zxf-java-maven-multiple-a</artifactId>  <!-- zxf:zxf-java-maven-multiple-a:1.0.0-SNAPSHOT, line 13 -->
     <version>1.0.0-SNAPSHOT</version>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 8 -->
     <properties>
-      <maven.compiler.release>17</maven.compiler.release>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 20 -->
-      <maven.compiler.source>17</maven.compiler.source>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 17 -->
-      <maven.compiler.target>17</maven.compiler.target>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 18 -->
+      <maven.compiler.release>21</maven.compiler.release>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 20 -->
+      <maven.compiler.source>21</maven.compiler.source>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 17 -->
+      <maven.compiler.target>21</maven.compiler.target>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 18 -->
     </properties>
     <dependencyManagement>
       <dependencies>
         <dependency>
-          <groupId>mysql</groupId>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 36 -->
-          <artifactId>mysql-connector-java</artifactId>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 37 -->
-          <version>8.0.33</version>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 38 -->
+          <groupId>com.mysql</groupId>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 36 -->
+          <artifactId>mysql-connector-j</artifactId>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 37 -->
+          <version>8.3.0</version>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 38 -->
         </dependency>
         <dependency>
           <groupId>org.flywaydb</groupId>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 41 -->
@@ -304,8 +304,8 @@
         </dependency>
         <dependency>
           <groupId>org.mockito</groupId>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 67 -->
-          <artifactId>mockito-inline</artifactId>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 68 -->
-          <version>4.5.1</version>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 69 -->
+          <artifactId>mockito-core</artifactId>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 68 -->
+          <version>5.11.0</version>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 69 -->
           <scope>test</scope>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 70 -->
         </dependency>
       </dependencies>
@@ -343,8 +343,8 @@
       </dependency>
       <dependency>
         <groupId>org.mockito</groupId>  <!-- zxf:zxf-java-maven-multiple-a:1.0.0-SNAPSHOT, line 41 -->
-        <artifactId>mockito-inline</artifactId>  <!-- zxf:zxf-java-maven-multiple-a:1.0.0-SNAPSHOT, line 42 -->
-        <version>4.5.1</version>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 69 -->
+        <artifactId>mockito-core</artifactId>  <!-- zxf:zxf-java-maven-multiple-a:1.0.0-SNAPSHOT, line 42 -->
+        <version>5.11.0</version>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 69 -->
         <scope>test</scope>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 70 -->
       </dependency>
       <dependency>
@@ -421,11 +421,11 @@
           <plugin>
             <groupId>org.springframework.boot</groupId>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 85 -->
             <artifactId>spring-boot-maven-plugin</artifactId>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 86 -->
-            <version>2.7.18</version>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 87 -->
+            <version>3.3.3</version>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 87 -->
           </plugin>
           <plugin>
             <artifactId>maven-surefire-plugin</artifactId>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 91 -->
-            <version>2.22.2</version>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 92 -->
+            <version>3.2.5</version>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 92 -->
           </plugin>
         </plugins>
       </pluginManagement>
@@ -437,7 +437,7 @@
         <plugin>
           <groupId>org.springframework.boot</groupId>  <!-- zxf:zxf-java-maven-multiple-a:1.0.0-SNAPSHOT, line 49 -->
           <artifactId>spring-boot-maven-plugin</artifactId>  <!-- zxf:zxf-java-maven-multiple-a:1.0.0-SNAPSHOT, line 50 -->
-          <version>2.7.18</version>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 87 -->
+          <version>3.3.3</version>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 87 -->
         </plugin>
         <plugin>
           <groupId>io.fabric8</groupId>  <!-- zxf:zxf-java-maven-multiple-a:1.0.0-SNAPSHOT, line 53 -->
@@ -512,7 +512,7 @@
         </plugin>
         <plugin>
           <artifactId>maven-surefire-plugin</artifactId>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 91 -->
-          <version>2.22.2</version>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 92 -->
+          <version>3.2.5</version>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 92 -->
           <executions>
             <execution>
               <id>default-test</id>  <!-- org.apache.maven:maven-core:3.8.7:default-lifecycle-bindings -->
@@ -619,16 +619,16 @@
     <artifactId>zxf-java-maven-multiple-b</artifactId>  <!-- zxf:zxf-java-maven-multiple-b:1.0.0-SNAPSHOT, line 13 -->
     <version>1.0.0-SNAPSHOT</version>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 8 -->
     <properties>
-      <maven.compiler.release>17</maven.compiler.release>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 20 -->
-      <maven.compiler.source>17</maven.compiler.source>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 17 -->
-      <maven.compiler.target>17</maven.compiler.target>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 18 -->
+      <maven.compiler.release>21</maven.compiler.release>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 20 -->
+      <maven.compiler.source>21</maven.compiler.source>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 17 -->
+      <maven.compiler.target>21</maven.compiler.target>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 18 -->
     </properties>
     <dependencyManagement>
       <dependencies>
         <dependency>
-          <groupId>mysql</groupId>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 36 -->
-          <artifactId>mysql-connector-java</artifactId>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 37 -->
-          <version>8.0.33</version>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 38 -->
+          <groupId>com.mysql</groupId>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 36 -->
+          <artifactId>mysql-connector-j</artifactId>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 37 -->
+          <version>8.3.0</version>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 38 -->
         </dependency>
         <dependency>
           <groupId>org.flywaydb</groupId>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 41 -->
@@ -658,17 +658,17 @@
         </dependency>
         <dependency>
           <groupId>org.mockito</groupId>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 67 -->
-          <artifactId>mockito-inline</artifactId>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 68 -->
-          <version>4.5.1</version>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 69 -->
+          <artifactId>mockito-core</artifactId>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 68 -->
+          <version>5.11.0</version>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 69 -->
           <scope>test</scope>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 70 -->
         </dependency>
       </dependencies>
     </dependencyManagement>
     <dependencies>
       <dependency>
-        <groupId>mysql</groupId>  <!-- zxf:zxf-java-maven-multiple-b:1.0.0-SNAPSHOT, line 17 -->
-        <artifactId>mysql-connector-java</artifactId>  <!-- zxf:zxf-java-maven-multiple-b:1.0.0-SNAPSHOT, line 18 -->
-        <version>8.0.33</version>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 38 -->
+        <groupId>com.mysql</groupId>  <!-- zxf:zxf-java-maven-multiple-b:1.0.0-SNAPSHOT, line 17 -->
+        <artifactId>mysql-connector-j</artifactId>  <!-- zxf:zxf-java-maven-multiple-b:1.0.0-SNAPSHOT, line 18 -->
+        <version>8.3.0</version>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 38 -->
         <scope>compile</scope>
       </dependency>
       <dependency>
@@ -697,8 +697,8 @@
       </dependency>
       <dependency>
         <groupId>org.mockito</groupId>  <!-- zxf:zxf-java-maven-multiple-b:1.0.0-SNAPSHOT, line 38 -->
-        <artifactId>mockito-inline</artifactId>  <!-- zxf:zxf-java-maven-multiple-b:1.0.0-SNAPSHOT, line 39 -->
-        <version>4.5.1</version>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 69 -->
+        <artifactId>mockito-core</artifactId>  <!-- zxf:zxf-java-maven-multiple-b:1.0.0-SNAPSHOT, line 39 -->
+        <version>5.11.0</version>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 69 -->
         <scope>test</scope>  <!-- zxf:zxf-java-maven-multiple-b:1.0.0-SNAPSHOT, line 40 -->
       </dependency>
       <dependency>
@@ -775,11 +775,11 @@
           <plugin>
             <groupId>org.springframework.boot</groupId>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 85 -->
             <artifactId>spring-boot-maven-plugin</artifactId>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 86 -->
-            <version>2.7.18</version>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 87 -->
+            <version>3.3.3</version>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 87 -->
           </plugin>
           <plugin>
             <artifactId>maven-surefire-plugin</artifactId>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 91 -->
-            <version>2.22.2</version>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 92 -->
+            <version>3.2.5</version>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 92 -->
           </plugin>
         </plugins>
       </pluginManagement>
@@ -791,7 +791,7 @@
         <plugin>
           <groupId>org.springframework.boot</groupId>  <!-- zxf:zxf-java-maven-multiple-b:1.0.0-SNAPSHOT, line 47 -->
           <artifactId>spring-boot-maven-plugin</artifactId>  <!-- zxf:zxf-java-maven-multiple-b:1.0.0-SNAPSHOT, line 48 -->
-          <version>2.7.18</version>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 87 -->
+          <version>3.3.3</version>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 87 -->
         </plugin>
         <plugin>
           <artifactId>maven-clean-plugin</artifactId>  <!-- org.apache.maven:maven-core:3.8.7:default-lifecycle-bindings -->
@@ -861,7 +861,7 @@
         </plugin>
         <plugin>
           <artifactId>maven-surefire-plugin</artifactId>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 91 -->
-          <version>2.22.2</version>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 92 -->
+          <version>3.2.5</version>  <!-- zxf:zxf-java-maven-multiple:1.0.0-SNAPSHOT, line 92 -->
           <executions>
             <execution>
               <id>default-test</id>  <!-- org.apache.maven:maven-core:3.8.7:default-lifecycle-bindings -->

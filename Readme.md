@@ -120,3 +120,8 @@
 - `--target <release>, -target <release> Generate class files suitable for the specified Java SE release. Supported releases: 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22`
 - `--release <release> Compile for the specified Java SE release. Supported releases: 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22`
 - https://docs.oracle.com/en/java/javase/22/docs/specs/man/javac.html
+
+
+# rewrite-maven-plugin
+- https://github.com/openrewrite/rewrite-maven-plugin
+- https://github.com/openrewrite/rewrite-spring/blob/v6.24.1/src/main/resources/META-INF/rewrite/spring-boot-35.yml
