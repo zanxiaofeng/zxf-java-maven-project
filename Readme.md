@@ -7,6 +7,11 @@
 - https://github.com/apache/maven/blob/maven-3.8.7/maven-model-builder/src/main/resources/org/apache/maven/model/pom-4.0.0.xml
 
 
+# default-lifecycle-bindings
+- https://github.com/apache/maven/blob/maven-3.8.7/maven-core/src/main/resources/META-INF/plexus/components.xml
+- https://github.com/apache/maven/blob/maven-3.8.7/maven-core/src/main/resources/META-INF/plexus/default-bindings.xml
+
+
 # Effective POM = Super POM + Parent POMs (if any) + Your project POM
 - mvn help:effective-pom -Dverbose=true -Doutput=effective-pom.xml
 
