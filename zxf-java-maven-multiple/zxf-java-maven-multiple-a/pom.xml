@@ -11,6 +11,11 @@
     </parent>
 
     <artifactId>zxf-java-maven-multiple-a</artifactId>
+    <version>1.0.0.a-SNAPSHOT</version>
+
+    <properties>
+        <resource.delimiter>^</resource.delimiter>
+    </properties>
 
     <dependencies>
         <dependency>
@@ -52,6 +57,17 @@
             <plugin>
                 <groupId>io.fabric8</groupId>
                 <artifactId>docker-maven-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-resources-plugin</artifactId>
+                <configuration>
+                    <propertiesEncoding>${project.build.sourceEncoding}</propertiesEncoding>
+                    <delimiters>
+                        <delimiter>${resource.delimiter}</delimiter>
+                    </delimiters>
+                    <useDefaultDelimiters>false</useDefaultDelimiters>
+                </configuration>
             </plugin>
         </plugins>
     </build>

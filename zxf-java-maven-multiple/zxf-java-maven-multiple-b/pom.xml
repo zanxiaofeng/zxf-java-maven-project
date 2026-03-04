@@ -11,6 +11,7 @@
     </parent>
 
     <artifactId>zxf-java-maven-multiple-b</artifactId>
+    <version>1.0.0.b-SNAPSHOT</version>
 
     <dependencies>
         <dependency>
