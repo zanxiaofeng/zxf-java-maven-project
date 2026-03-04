@@ -7955,32 +7955,29 @@
   <repositories>
     <repository>
       <snapshots>
-        <enabled>false</enabled>  <!-- org.apache.maven:maven-model-builder:3.8.7:super-pom, line 33 -->
+        <enabled>false</enabled>  <!-- org.apache.maven:maven-model-builder:3.9.12:super-pom, line 33 -->
       </snapshots>
-      <id>central</id>  <!-- org.apache.maven:maven-model-builder:3.8.7:super-pom, line 28 -->
-      <name>Central Repository</name>  <!-- org.apache.maven:maven-model-builder:3.8.7:super-pom, line 29 -->
-      <url>https://repo.maven.apache.org/maven2</url>  <!-- org.apache.maven:maven-model-builder:3.8.7:super-pom, line 30 -->
+      <id>central</id>  <!-- org.apache.maven:maven-model-builder:3.9.12:super-pom, line 28 -->
+      <name>Central Repository</name>  <!-- org.apache.maven:maven-model-builder:3.9.12:super-pom, line 29 -->
+      <url>https://repo.maven.apache.org/maven2</url>  <!-- org.apache.maven:maven-model-builder:3.9.12:super-pom, line 30 -->
     </repository>
   </repositories>
   <pluginRepositories>
     <pluginRepository>
-      <releases>
-        <updatePolicy>never</updatePolicy>  <!-- org.apache.maven:maven-model-builder:3.8.7:super-pom, line 48 -->
-      </releases>
       <snapshots>
-        <enabled>false</enabled>  <!-- org.apache.maven:maven-model-builder:3.8.7:super-pom, line 45 -->
+        <enabled>false</enabled>  <!-- org.apache.maven:maven-model-builder:3.9.12:super-pom, line 45 -->
       </snapshots>
-      <id>central</id>  <!-- org.apache.maven:maven-model-builder:3.8.7:super-pom, line 40 -->
-      <name>Central Repository</name>  <!-- org.apache.maven:maven-model-builder:3.8.7:super-pom, line 41 -->
-      <url>https://repo.maven.apache.org/maven2</url>  <!-- org.apache.maven:maven-model-builder:3.8.7:super-pom, line 42 -->
+      <id>central</id>  <!-- org.apache.maven:maven-model-builder:3.9.12:super-pom, line 40 -->
+      <name>Central Repository</name>  <!-- org.apache.maven:maven-model-builder:3.9.12:super-pom, line 41 -->
+      <url>https://repo.maven.apache.org/maven2</url>  <!-- org.apache.maven:maven-model-builder:3.9.12:super-pom, line 42 -->
     </pluginRepository>
   </pluginRepositories>
   <build>
-    <sourceDirectory>/home/davis/Work/zxf-java-maven-project/zxf-java-maven-springboot/src/main/java</sourceDirectory>  <!-- org.apache.maven:maven-model-builder:3.8.7:super-pom, line 58 -->
-    <scriptSourceDirectory>/home/davis/Work/zxf-java-maven-project/zxf-java-maven-springboot/src/main/scripts</scriptSourceDirectory>  <!-- org.apache.maven:maven-model-builder:3.8.7:super-pom, line 59 -->
-    <testSourceDirectory>/home/davis/Work/zxf-java-maven-project/zxf-java-maven-springboot/src/test/java</testSourceDirectory>  <!-- org.apache.maven:maven-model-builder:3.8.7:super-pom, line 60 -->
-    <outputDirectory>/home/davis/Work/zxf-java-maven-project/zxf-java-maven-springboot/target/classes</outputDirectory>  <!-- org.apache.maven:maven-model-builder:3.8.7:super-pom, line 55 -->
-    <testOutputDirectory>/home/davis/Work/zxf-java-maven-project/zxf-java-maven-springboot/target/test-classes</testOutputDirectory>  <!-- org.apache.maven:maven-model-builder:3.8.7:super-pom, line 57 -->
+    <sourceDirectory>/home/davis/Work/zxf-java-maven-project/zxf-java-maven-springboot/src/main/java</sourceDirectory>  <!-- org.apache.maven:maven-model-builder:3.9.12:super-pom, line 55 -->
+    <scriptSourceDirectory>/home/davis/Work/zxf-java-maven-project/zxf-java-maven-springboot/src/main/scripts</scriptSourceDirectory>  <!-- org.apache.maven:maven-model-builder:3.9.12:super-pom, line 56 -->
+    <testSourceDirectory>/home/davis/Work/zxf-java-maven-project/zxf-java-maven-springboot/src/test/java</testSourceDirectory>  <!-- org.apache.maven:maven-model-builder:3.9.12:super-pom, line 57 -->
+    <outputDirectory>/home/davis/Work/zxf-java-maven-project/zxf-java-maven-springboot/target/classes</outputDirectory>  <!-- org.apache.maven:maven-model-builder:3.9.12:super-pom, line 52 -->
+    <testOutputDirectory>/home/davis/Work/zxf-java-maven-project/zxf-java-maven-springboot/target/test-classes</testOutputDirectory>  <!-- org.apache.maven:maven-model-builder:3.9.12:super-pom, line 54 -->
     <resources>
       <resource>
         <filtering>true</filtering>  <!-- org.springframework.boot:spring-boot-starter-parent:3.5.11, line 43 -->
@@ -8002,11 +7999,11 @@
     </resources>
     <testResources>
       <testResource>
-        <directory>/home/davis/Work/zxf-java-maven-project/zxf-java-maven-springboot/src/test/resources</directory>  <!-- org.apache.maven:maven-model-builder:3.8.7:super-pom, line 68 -->
+        <directory>/home/davis/Work/zxf-java-maven-project/zxf-java-maven-springboot/src/test/resources</directory>  <!-- org.apache.maven:maven-model-builder:3.9.12:super-pom, line 65 -->
       </testResource>
     </testResources>
-    <directory>/home/davis/Work/zxf-java-maven-project/zxf-java-maven-springboot/target</directory>  <!-- org.apache.maven:maven-model-builder:3.8.7:super-pom, line 54 -->
-    <finalName>zxf-java-maven-springboot-1.0.0-SNAPSHOT</finalName>  <!-- org.apache.maven:maven-model-builder:3.8.7:super-pom, line 56 -->
+    <directory>/home/davis/Work/zxf-java-maven-project/zxf-java-maven-springboot/target</directory>  <!-- org.apache.maven:maven-model-builder:3.9.12:super-pom, line 51 -->
+    <finalName>zxf-java-maven-springboot-1.0.0-SNAPSHOT</finalName>  <!-- org.apache.maven:maven-model-builder:3.9.12:super-pom, line 53 -->
     <pluginManagement>
       <plugins>
         <plugin>
@@ -8127,8 +8124,8 @@
           <version>3.8.1</version>  <!-- org.springframework.boot:spring-boot-dependencies:3.5.11, line 2465 -->
         </plugin>
         <plugin>
-          <artifactId>maven-release-plugin</artifactId>  <!-- org.apache.maven:maven-model-builder:3.8.7:super-pom, line 88 -->
-          <version>2.5.3</version>  <!-- org.apache.maven:maven-model-builder:3.8.7:super-pom, line 89 -->
+          <artifactId>maven-release-plugin</artifactId>  <!-- org.apache.maven:maven-model-builder:3.9.12:super-pom, line 85 -->
+          <version>3.0.1</version>  <!-- org.apache.maven:maven-model-builder:3.9.12:super-pom, line 86 -->
         </plugin>
         <plugin>
           <artifactId>maven-deploy-plugin</artifactId>  <!-- org.springframework.boot:spring-boot-dependencies:3.5.11, line 2469 -->
@@ -8366,10 +8363,10 @@
         <version>3.4.1</version>  <!-- org.springframework.boot:spring-boot-dependencies:3.5.11, line 2455 -->
         <executions>
           <execution>
-            <id>default-clean</id>  <!-- org.apache.maven:maven-core:3.8.7:default-lifecycle-bindings -->
-            <phase>clean</phase>  <!-- org.apache.maven:maven-core:3.8.7:default-lifecycle-bindings -->
+            <id>default-clean</id>  <!-- org.apache.maven:maven-core:3.9.12:default-lifecycle-bindings -->
+            <phase>clean</phase>  <!-- org.apache.maven:maven-core:3.9.12:default-lifecycle-bindings -->
             <goals>
-              <goal>clean</goal>  <!-- org.apache.maven:maven-core:3.8.7:default-lifecycle-bindings -->
+              <goal>clean</goal>  <!-- org.apache.maven:maven-core:3.9.12:default-lifecycle-bindings -->
             </goals>
           </execution>
         </executions>
@@ -8379,10 +8376,10 @@
         <version>3.3.1</version>  <!-- org.springframework.boot:spring-boot-dependencies:3.5.11, line 2510 -->
         <executions>
           <execution>
-            <id>default-testResources</id>  <!-- org.apache.maven:maven-core:3.8.7:default-lifecycle-bindings -->
-            <phase>process-test-resources</phase>  <!-- org.apache.maven:maven-core:3.8.7:default-lifecycle-bindings -->
+            <id>default-testResources</id>  <!-- org.apache.maven:maven-core:3.9.12:default-lifecycle-bindings -->
+            <phase>process-test-resources</phase>  <!-- org.apache.maven:maven-core:3.9.12:default-lifecycle-bindings -->
             <goals>
-              <goal>testResources</goal>  <!-- org.apache.maven:maven-core:3.8.7:default-lifecycle-bindings -->
+              <goal>testResources</goal>  <!-- org.apache.maven:maven-core:3.9.12:default-lifecycle-bindings -->
             </goals>
             <configuration>
               <propertiesEncoding>UTF-8</propertiesEncoding>  <!-- org.springframework.boot:spring-boot-starter-parent:3.5.11, line 136 -->
@@ -8393,10 +8390,10 @@
             </configuration>
           </execution>
           <execution>
-            <id>default-resources</id>  <!-- org.apache.maven:maven-core:3.8.7:default-lifecycle-bindings -->
-            <phase>process-resources</phase>  <!-- org.apache.maven:maven-core:3.8.7:default-lifecycle-bindings -->
+            <id>default-resources</id>  <!-- org.apache.maven:maven-core:3.9.12:default-lifecycle-bindings -->
+            <phase>process-resources</phase>  <!-- org.apache.maven:maven-core:3.9.12:default-lifecycle-bindings -->
             <goals>
-              <goal>resources</goal>  <!-- org.apache.maven:maven-core:3.8.7:default-lifecycle-bindings -->
+              <goal>resources</goal>  <!-- org.apache.maven:maven-core:3.9.12:default-lifecycle-bindings -->
             </goals>
             <configuration>
               <propertiesEncoding>UTF-8</propertiesEncoding>  <!-- org.springframework.boot:spring-boot-starter-parent:3.5.11, line 136 -->
@@ -8420,10 +8417,10 @@
         <version>3.4.2</version>  <!-- org.springframework.boot:spring-boot-dependencies:3.5.11, line 2500 -->
         <executions>
           <execution>
-            <id>default-jar</id>  <!-- org.apache.maven:maven-core:3.8.7:default-lifecycle-bindings -->
-            <phase>package</phase>  <!-- org.apache.maven:maven-core:3.8.7:default-lifecycle-bindings -->
+            <id>default-jar</id>  <!-- org.apache.maven:maven-core:3.9.12:default-lifecycle-bindings -->
+            <phase>package</phase>  <!-- org.apache.maven:maven-core:3.9.12:default-lifecycle-bindings -->
             <goals>
-              <goal>jar</goal>  <!-- org.apache.maven:maven-core:3.8.7:default-lifecycle-bindings -->
+              <goal>jar</goal>  <!-- org.apache.maven:maven-core:3.9.12:default-lifecycle-bindings -->
             </goals>
             <configuration>
               <archive>
@@ -8449,20 +8446,20 @@
         <version>3.14.1</version>  <!-- org.springframework.boot:spring-boot-dependencies:3.5.11, line 2460 -->
         <executions>
           <execution>
-            <id>default-compile</id>  <!-- org.apache.maven:maven-core:3.8.7:default-lifecycle-bindings -->
-            <phase>compile</phase>  <!-- org.apache.maven:maven-core:3.8.7:default-lifecycle-bindings -->
+            <id>default-compile</id>  <!-- org.apache.maven:maven-core:3.9.12:default-lifecycle-bindings -->
+            <phase>compile</phase>  <!-- org.apache.maven:maven-core:3.9.12:default-lifecycle-bindings -->
             <goals>
-              <goal>compile</goal>  <!-- org.apache.maven:maven-core:3.8.7:default-lifecycle-bindings -->
+              <goal>compile</goal>  <!-- org.apache.maven:maven-core:3.9.12:default-lifecycle-bindings -->
             </goals>
             <configuration>
               <parameters>true</parameters>  <!-- org.springframework.boot:spring-boot-starter-parent:3.5.11, line 90 -->
             </configuration>
           </execution>
           <execution>
-            <id>default-testCompile</id>  <!-- org.apache.maven:maven-core:3.8.7:default-lifecycle-bindings -->
-            <phase>test-compile</phase>  <!-- org.apache.maven:maven-core:3.8.7:default-lifecycle-bindings -->
+            <id>default-testCompile</id>  <!-- org.apache.maven:maven-core:3.9.12:default-lifecycle-bindings -->
+            <phase>test-compile</phase>  <!-- org.apache.maven:maven-core:3.9.12:default-lifecycle-bindings -->
             <goals>
-              <goal>testCompile</goal>  <!-- org.apache.maven:maven-core:3.8.7:default-lifecycle-bindings -->
+              <goal>testCompile</goal>  <!-- org.apache.maven:maven-core:3.9.12:default-lifecycle-bindings -->
             </goals>
             <configuration>
               <parameters>true</parameters>  <!-- org.springframework.boot:spring-boot-starter-parent:3.5.11, line 90 -->
@@ -8478,10 +8475,10 @@
         <version>3.5.4</version>  <!-- org.springframework.boot:spring-boot-dependencies:3.5.11, line 2525 -->
         <executions>
           <execution>
-            <id>default-test</id>  <!-- org.apache.maven:maven-core:3.8.7:default-lifecycle-bindings -->
-            <phase>test</phase>  <!-- org.apache.maven:maven-core:3.8.7:default-lifecycle-bindings -->
+            <id>default-test</id>  <!-- org.apache.maven:maven-core:3.9.12:default-lifecycle-bindings -->
+            <phase>test</phase>  <!-- org.apache.maven:maven-core:3.9.12:default-lifecycle-bindings -->
             <goals>
-              <goal>test</goal>  <!-- org.apache.maven:maven-core:3.8.7:default-lifecycle-bindings -->
+              <goal>test</goal>  <!-- org.apache.maven:maven-core:3.9.12:default-lifecycle-bindings -->
             </goals>
           </execution>
         </executions>
@@ -8491,10 +8488,10 @@
         <version>3.1.4</version>  <!-- org.springframework.boot:spring-boot-dependencies:3.5.11, line 2490 -->
         <executions>
           <execution>
-            <id>default-install</id>  <!-- org.apache.maven:maven-core:3.8.7:default-lifecycle-bindings -->
-            <phase>install</phase>  <!-- org.apache.maven:maven-core:3.8.7:default-lifecycle-bindings -->
+            <id>default-install</id>  <!-- org.apache.maven:maven-core:3.9.12:default-lifecycle-bindings -->
+            <phase>install</phase>  <!-- org.apache.maven:maven-core:3.9.12:default-lifecycle-bindings -->
             <goals>
-              <goal>install</goal>  <!-- org.apache.maven:maven-core:3.8.7:default-lifecycle-bindings -->
+              <goal>install</goal>  <!-- org.apache.maven:maven-core:3.9.12:default-lifecycle-bindings -->
             </goals>
           </execution>
         </executions>
@@ -8504,57 +8501,57 @@
         <version>3.1.4</version>  <!-- org.springframework.boot:spring-boot-dependencies:3.5.11, line 2470 -->
         <executions>
           <execution>
-            <id>default-deploy</id>  <!-- org.apache.maven:maven-core:3.8.7:default-lifecycle-bindings -->
-            <phase>deploy</phase>  <!-- org.apache.maven:maven-core:3.8.7:default-lifecycle-bindings -->
+            <id>default-deploy</id>  <!-- org.apache.maven:maven-core:3.9.12:default-lifecycle-bindings -->
+            <phase>deploy</phase>  <!-- org.apache.maven:maven-core:3.9.12:default-lifecycle-bindings -->
             <goals>
-              <goal>deploy</goal>  <!-- org.apache.maven:maven-core:3.8.7:default-lifecycle-bindings -->
+              <goal>deploy</goal>  <!-- org.apache.maven:maven-core:3.9.12:default-lifecycle-bindings -->
             </goals>
           </execution>
         </executions>
       </plugin>
       <plugin>
-        <artifactId>maven-site-plugin</artifactId>  <!-- org.apache.maven:maven-core:3.8.7:default-lifecycle-bindings -->
-        <version>3.3</version>  <!-- org.apache.maven:maven-core:3.8.7:default-lifecycle-bindings -->
+        <artifactId>maven-site-plugin</artifactId>  <!-- org.apache.maven:maven-core:3.9.12:default-lifecycle-bindings -->
+        <version>3.12.1</version>  <!-- org.apache.maven:maven-core:3.9.12:default-lifecycle-bindings -->
         <executions>
           <execution>
-            <id>default-site</id>  <!-- org.apache.maven:maven-core:3.8.7:default-lifecycle-bindings -->
-            <phase>site</phase>  <!-- org.apache.maven:maven-core:3.8.7:default-lifecycle-bindings -->
+            <id>default-site</id>  <!-- org.apache.maven:maven-core:3.9.12:default-lifecycle-bindings -->
+            <phase>site</phase>  <!-- org.apache.maven:maven-core:3.9.12:default-lifecycle-bindings -->
             <goals>
-              <goal>site</goal>  <!-- org.apache.maven:maven-core:3.8.7:default-lifecycle-bindings -->
+              <goal>site</goal>  <!-- org.apache.maven:maven-core:3.9.12:default-lifecycle-bindings -->
             </goals>
             <configuration>
-              <outputDirectory>/home/davis/Work/zxf-java-maven-project/zxf-java-maven-springboot/target/site</outputDirectory>  <!-- org.apache.maven:maven-model-builder:3.8.7:super-pom, line 96 -->
+              <outputDirectory>/home/davis/Work/zxf-java-maven-project/zxf-java-maven-springboot/target/site</outputDirectory>  <!-- org.apache.maven:maven-model-builder:3.9.12:super-pom, line 93 -->
               <reportPlugins>
                 <reportPlugin>
-                  <groupId>org.apache.maven.plugins</groupId>  <!-- org.apache.maven:maven-model-builder:3.8.7:reporting-converter -->
-                  <artifactId>maven-project-info-reports-plugin</artifactId>  <!-- org.apache.maven:maven-model-builder:3.8.7:reporting-converter -->
+                  <groupId>org.apache.maven.plugins</groupId>  <!-- org.apache.maven:maven-model-builder:3.9.12:reporting-converter -->
+                  <artifactId>maven-project-info-reports-plugin</artifactId>  <!-- org.apache.maven:maven-model-builder:3.9.12:reporting-converter -->
                 </reportPlugin>
               </reportPlugins>
             </configuration>
           </execution>
           <execution>
-            <id>default-deploy</id>  <!-- org.apache.maven:maven-core:3.8.7:default-lifecycle-bindings -->
-            <phase>site-deploy</phase>  <!-- org.apache.maven:maven-core:3.8.7:default-lifecycle-bindings -->
+            <id>default-deploy</id>  <!-- org.apache.maven:maven-core:3.9.12:default-lifecycle-bindings -->
+            <phase>site-deploy</phase>  <!-- org.apache.maven:maven-core:3.9.12:default-lifecycle-bindings -->
             <goals>
-              <goal>deploy</goal>  <!-- org.apache.maven:maven-core:3.8.7:default-lifecycle-bindings -->
+              <goal>deploy</goal>  <!-- org.apache.maven:maven-core:3.9.12:default-lifecycle-bindings -->
             </goals>
             <configuration>
-              <outputDirectory>/home/davis/Work/zxf-java-maven-project/zxf-java-maven-springboot/target/site</outputDirectory>  <!-- org.apache.maven:maven-model-builder:3.8.7:super-pom, line 96 -->
+              <outputDirectory>/home/davis/Work/zxf-java-maven-project/zxf-java-maven-springboot/target/site</outputDirectory>  <!-- org.apache.maven:maven-model-builder:3.9.12:super-pom, line 93 -->
               <reportPlugins>
                 <reportPlugin>
-                  <groupId>org.apache.maven.plugins</groupId>  <!-- org.apache.maven:maven-model-builder:3.8.7:reporting-converter -->
-                  <artifactId>maven-project-info-reports-plugin</artifactId>  <!-- org.apache.maven:maven-model-builder:3.8.7:reporting-converter -->
+                  <groupId>org.apache.maven.plugins</groupId>  <!-- org.apache.maven:maven-model-builder:3.9.12:reporting-converter -->
+                  <artifactId>maven-project-info-reports-plugin</artifactId>  <!-- org.apache.maven:maven-model-builder:3.9.12:reporting-converter -->
                 </reportPlugin>
               </reportPlugins>
             </configuration>
           </execution>
         </executions>
         <configuration>
-          <outputDirectory>/home/davis/Work/zxf-java-maven-project/zxf-java-maven-springboot/target/site</outputDirectory>  <!-- org.apache.maven:maven-model-builder:3.8.7:super-pom, line 96 -->
+          <outputDirectory>/home/davis/Work/zxf-java-maven-project/zxf-java-maven-springboot/target/site</outputDirectory>  <!-- org.apache.maven:maven-model-builder:3.9.12:super-pom, line 93 -->
           <reportPlugins>
             <reportPlugin>
-              <groupId>org.apache.maven.plugins</groupId>  <!-- org.apache.maven:maven-model-builder:3.8.7:reporting-converter -->
-              <artifactId>maven-project-info-reports-plugin</artifactId>  <!-- org.apache.maven:maven-model-builder:3.8.7:reporting-converter -->
+              <groupId>org.apache.maven.plugins</groupId>  <!-- org.apache.maven:maven-model-builder:3.9.12:reporting-converter -->
+              <artifactId>maven-project-info-reports-plugin</artifactId>  <!-- org.apache.maven:maven-model-builder:3.9.12:reporting-converter -->
             </reportPlugin>
           </reportPlugins>
         </configuration>
@@ -8562,6 +8559,6 @@
     </plugins>
   </build>
   <reporting>
-    <outputDirectory>/home/davis/Work/zxf-java-maven-project/zxf-java-maven-springboot/target/site</outputDirectory>  <!-- org.apache.maven:maven-model-builder:3.8.7:super-pom, line 96 -->
+    <outputDirectory>/home/davis/Work/zxf-java-maven-project/zxf-java-maven-springboot/target/site</outputDirectory>  <!-- org.apache.maven:maven-model-builder:3.9.12:super-pom, line 93 -->
   </reporting>
 </project>
